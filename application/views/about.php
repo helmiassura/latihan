@@ -11,9 +11,9 @@
     <div class="container">
         <nav>
             <ul class="ul-navbar">
-                <li><a href="#" class="a-navbar">HOME</a></li>
-                <li><a href="about.html" class="a-navbar">ABOUT</a></li>
-                <li><a href="contact.html" class="a-navbar">CONTACT</a></li>
+                <li><a href="<?=site_url('home')?>" class="a-navbar">HOME</a></li>
+                <li><a href="<?=site_url('#')?>" class="a-navbar">ABOUT</a></li>
+                <li><a href="<?=site_url('contact')?>" class="a-navbar">CONTACT</a></li>
             </ul>
         </nav>
 
@@ -26,7 +26,7 @@
                     <div class="form-group">USIA
                         <input type="text" required>
                     </div>
-                    <div class="form-group">TELP
+                    <div class="form-group">TELEPHONE
                         <input type="tel" required>
                     </div>
                     <button class="submit" type="submit">SUBMIT</button>
